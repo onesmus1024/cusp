@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cf.onescode.cusp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_CONTACTS" />
+15-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:3:5-72
+15-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:3:22-69
+16    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+16-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:4:5-73
+16-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:4:22-70
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:5:5-81
+17-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:5:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:6:5-80
+18-->/media/onesmus/dev/dev/flutter/cusp/android/app/src/main/AndroidManifest.xml:6:22-77
+19
+20    <queries>
+20-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-24:15
+21        <intent>
+21-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:18
+22            <action android:name="android.accounts.AccountAuthenticator" />
+22-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-76
+22-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:21-73
+23        </intent>
+24        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+25        <intent>
+25-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-23:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-65
+26-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:21-62
+27
+28            <data
+28-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-22:44
+29                android:host="com.android.contacts"
+29-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-52
+30                android:mimeType="vnd.android.cursor.item/*"
+30-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-61
+31                android:scheme="content" />
+31-->[:contacts_service] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/contacts_service-0.6.3/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-41
+32        </intent>
+33    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+34    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[com.google.firebase:firebase-firestore:24.0.2] /home/onesmus/.gradle/caches/transforms-2/files-2.1/8123d9b95e838ead3ef24f5d7df1b3ec/jetified-firebase-firestore-24.0.2/AndroidManifest.xml:13:5-79
+35-->[com.google.firebase:firebase-firestore:24.0.2] /home/onesmus/.gradle/caches/transforms-2/files-2.1/8123d9b95e838ead3ef24f5d7df1b3ec/jetified-firebase-firestore-24.0.2/AndroidManifest.xml:13:22-76
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:24:5-68
+36-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:24:22-65
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:25:5-79
+37-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:25:22-76
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:26:22-107
+39
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.6.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/14b93615368c2249f1830e26ca064ab5/core-1.6.0/AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+45        android:label="cusp" >
+46        <activity
+47            android:name="com.example.cusp.MainActivity"
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49            android:exported="true"
+50            android:hardwareAccelerated="true"
+51            android:launchMode="singleTop"
+52            android:theme="@style/LaunchTheme"
+53            android:windowSoftInputMode="adjustResize" >
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+62                android:name="io.flutter.embedding.android.NormalTheme"
+63                android:resource="@style/NormalTheme" />
+64
+65            <intent-filter>
+66                <action android:name="android.intent.action.MAIN" />
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+76            android:name="flutterEmbedding"
+77            android:value="2" />
+78
+79        <service
+79-->[:cloud_firestore] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.10/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[:cloud_firestore] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.10/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-firestore:24.0.2] /home/onesmus/.gradle/caches/transforms-2/files-2.1/8123d9b95e838ead3ef24f5d7df1b3ec/jetified-firebase-firestore-24.0.2/AndroidManifest.xml:19:13-37
+83            <meta-data
+83-->[:cloud_firestore] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.10/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+84-->[:cloud_firestore] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.10/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:cloud_firestore] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.10/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+86            <meta-data
+86-->[:firebase_core] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.13.1/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+87-->[:firebase_core] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.13.1/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_core] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.13.1/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-firestore:24.0.2] /home/onesmus/.gradle/caches/transforms-2/files-2.1/8123d9b95e838ead3ef24f5d7df1b3ec/jetified-firebase-firestore-24.0.2/AndroidManifest.xml:20:13-22:85
+90                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+90-->[com.google.firebase:firebase-firestore:24.0.2] /home/onesmus/.gradle/caches/transforms-2/files-2.1/8123d9b95e838ead3ef24f5d7df1b3ec/jetified-firebase-firestore-24.0.2/AndroidManifest.xml:21:17-111
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-firestore:24.0.2] /home/onesmus/.gradle/caches/transforms-2/files-2.1/8123d9b95e838ead3ef24f5d7df1b3ec/jetified-firebase-firestore-24.0.2/AndroidManifest.xml:22:17-82
+92            <meta-data
+92-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:31:13-33:85
+93                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+93-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:32:17-139
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.android.gms:play-services-measurement-api:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/c2805c0e97c61db136633709c05b811f/jetified-play-services-measurement-api-20.1.1/AndroidManifest.xml:33:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-installations:17.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/5c0bcaf225cb7771e65a14163b1c7474/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+96-->[com.google.firebase:firebase-installations:17.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/5c0bcaf225cb7771e65a14163b1c7474/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-installations:17.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/5c0bcaf225cb7771e65a14163b1c7474/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+98        </service>
+99
+100        <provider
+100-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+101            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+101-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+102            android:authorities="cf.onescode.cusp.flutter.image_provider"
+102-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+103            android:exported="false"
+103-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+104            android:grantUriPermissions="true" >
+104-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+105            <meta-data
+105-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+107                android:resource="@xml/flutter_image_picker_file_paths" />
+107-->[:image_picker] /home/onesmus/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+11/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+108        </provider>
+109
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] /home/onesmus/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+111            android:name="androidx.window.extensions"
+111-->[androidx.window:window:1.0.0-beta04] /home/onesmus/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] /home/onesmus/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+113        <uses-library
+113-->[androidx.window:window:1.0.0-beta04] /home/onesmus/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+114            android:name="androidx.window.sidecar"
+114-->[androidx.window:window:1.0.0-beta04] /home/onesmus/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0-beta04] /home/onesmus/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+119            android:authorities="cf.onescode.cusp.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:20.1.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+123
+124        <receiver
+124-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:29:9-33:20
+125            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+125-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:30:13-85
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:31:13-35
+127            android:exported="false" >
+127-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:32:13-37
+128        </receiver>
+129
+130        <service
+130-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:35:9-38:40
+131            android:name="com.google.android.gms.measurement.AppMeasurementService"
+131-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:36:13-84
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:37:13-35
+133            android:exported="false" />
+133-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:38:13-37
+134        <service
+134-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:39:9-43:72
+135            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+135-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:40:13-87
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:41:13-35
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:42:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.google.android.gms:play-services-measurement:20.1.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/a24ed264782a28a8bd8a2a61f3120368/jetified-play-services-measurement-20.1.1/AndroidManifest.xml:43:13-69
+139
+140        <activity
+140-->[com.google.android.gms:play-services-base:18.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+141-->[com.google.android.gms:play-services-base:18.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-base:18.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-base:18.0.1] /home/onesmus/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:18.0.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:18.0.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:18.0.0] /home/onesmus/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+148    </application>
+149
+150</manifest>

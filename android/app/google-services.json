@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909439611766",
+    "project_id": "cusp-e409c",
+    "storage_bucket": "cusp-e409c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909439611766:android:7ba0bde3e6c1fb2663c057",
+        "android_client_info": {
+          "package_name": "cf.onescode.cusp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909439611766-tjum6g7gdf0lapocsip7lsf50nfdjakc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP5eceIHOWQ17fckQLKCq5SMQ3rnq1dW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909439611766-tjum6g7gdf0lapocsip7lsf50nfdjakc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+#Tue Mar 22 10:43:02 EAT 2022
+base.0=/media/onesmus/dev/dev/flutter/cusp/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
